@@ -9,7 +9,7 @@
     <p>composer update</p>
 <hr>
     <h3>No arquivo .env verifque se o banco é o mesmo criado por você.</h3>
-    <p>php artisan migration<p>
+    <p>php artisan migrate<p>
 </div>
 
 <div>
