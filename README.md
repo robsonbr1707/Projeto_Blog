@@ -8,8 +8,10 @@
     <p>composer install</p>
     <p>composer update</p>
 <hr>
-    <h3>No arquivo .env verifque se o banco é o mesmo criado por você.</h3>
-    <p>php artisan migrate<p>
+    <h3>No arquivo .env.example renomeie para .env e verifque o nome do banco.</h3>
+    <h3>insira o comando artisan para gerar uma chave</h3>
+    <p>php artisan key:generate</p>
+    <p>php artisan migrate</p>
 </div>
 
 <div>
@@ -19,6 +21,7 @@
 
 <div>
     <h2>Niveis De Acesso</h2>
+    <h3>Para Mudar o nivel de acesso vá o seu banco de dados na tabela users coluna autorize(enum) e mude quando quiser.</h3>
     <p><strong>Admin:</strong> Tem acesso para fazer tudo, Criar registros, Posts, Editar e Excluir. Também consegue exluir Comentários de outros Usuarios.</p>
 <hr>
     <p><strong>Mod:</strong> Tem acesso para Editar Registros e exluir Comentários de outros Usuarios.</p>
@@ -26,7 +29,9 @@
     <p><strong>User:</strong> Usuario Comum, Somente fazer comentarios e excluir o Próprio.</p>
 </div>
 <div>
-    <h2>Login para ter acesso as principais funçoes</h2>
+    <h2>Caso você tenha feito a importação do banco para ja ter acesso aos registros.</h2>
+    <h2>Verifique se está no formato utf8</h2>
+    <h3>Login para ter acesso as principais funçoes</h3>
     <p><strong>Admin:</strong>Login => admin@gmail.com \ Senha => 123123123</p>
     <p><strong>Mod:</strong>Login => mod@gmail.com \ Senha => 123123123</p>
 </div>
