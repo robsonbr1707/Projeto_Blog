@@ -4,7 +4,7 @@
 
     <section>
         @if ($posts->isEmpty())
-            <h2 class="message-success">Nenhum Post No Momento..</h2>
+            <h2 class="message-success">Nenhum Post No Momento.</h2>
         @endif
         <div class="section-post">
             @foreach ($posts as $post)
