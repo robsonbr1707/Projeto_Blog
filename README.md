@@ -4,8 +4,8 @@
 </div>
 <div>
     <h2>Antes De Iniciar</h2>
-    <h4>Está Aplicação foi feita com Laravel 8, Verifique isso Primeiro.</h4>
-    <p>Composer install</p>
+    <h4>Está Aplicação foi feita com Laravel 8, verifique se você está na raiz do projeto para inserir os comandos composer</h4>
+    <p>composer install</p>
     <p>composer update</p>
 <hr>
     <h3>No arquivo .env verifque se o banco é o mesmo criado por você.</h3>
