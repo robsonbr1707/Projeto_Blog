@@ -28,11 +28,5 @@
 <hr>
     <p><strong>User:</strong> Usuario Comum, Somente fazer comentarios e excluir o Próprio.</p>
 </div>
-<div>
-    <h2>Caso você tenha feito a importação do banco para ja ter acesso aos registros.</h2>
-    <h2>Verifique se está no formato utf8</h2>
-    <h3>Login para ter acesso as principais funçoes</h3>
-    <p><strong>Admin:</strong>Login => admin@gmail.com \ Senha => 123123123</p>
-    <p><strong>Mod:</strong>Login => mod@gmail.com \ Senha => 123123123</p>
-</div>
+
 
