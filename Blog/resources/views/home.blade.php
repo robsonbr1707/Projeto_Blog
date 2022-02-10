@@ -5,8 +5,6 @@
     <section>
         @if ($posts->isEmpty())
             <h2 class="message-success">Nenhum Post No Momento..</h2>
-            <p class="message-success">Entre como Admin, Para criar os Posts!</p>
-            <p class="message-success">Login:Admin -- Senha:123123123</p>
         @endif
         <div class="section-post">
             @foreach ($posts as $post)

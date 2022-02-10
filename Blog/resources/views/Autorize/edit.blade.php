@@ -5,8 +5,6 @@
     <section>
         @if ($records->isEmpty())
             <h2 class="message-success">Nenhum Registro No Momento..</h2>
-            <p class="message-success">Entre como Admin, Para criar os Registros!</p>
-            <p class="message-success">Login:Admin -- Senha:123123123</p>
         @else
         <div id="table-content">
             <table>
